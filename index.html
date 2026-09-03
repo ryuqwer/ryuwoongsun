@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>류웅선 - 포트폴리오 이력서</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-light: #eff6ff;
+      --text-main: #1f2937;
+      --text-sub: #4b5563;
+      --border: #e5e7eb;
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple SD Gothic Neo", "Malgun Gothic";
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 48px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #111827;
+      margin-bottom: 8px;
+    }
+    blockquote {
+      font-size: 1.1rem;
+      color: var(--primary);
+      font-weight: 500;
+      margin-bottom: 16px;
+      padding-left: 12px;
+      border-left: 4px solid var(--primary);
+    }
+    .contact-info {
+      list-style: none;
+      font-size: 0.95rem;
+      color: var(--text-sub);
+    }
+    .contact-info a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+      color: var(--primary);
+    }
+    section {
+      margin-bottom: 36px;
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #111827;
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background-color: var(--primary);
+      border-radius: 2px;
+    }
+    .item {
+      margin-bottom: 20px;
+    }
+    .item-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 4px;
+    }
+    .sub-text {
+      color: var(--text-sub);
+      font-size: 0.95rem;
+    }
+    .card {
+      background-color: #fafbfc;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-top: 10px;
+    }
+    .card h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 12px;
+    }
+    .detail-list {
+      list-style-type: none;
+      margin-bottom: 12px;
+    }
+    .detail-list li {
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+      color: var(--text-sub);
+    }
+    .detail-list li strong {
+      color: #374151;
+      display: inline-block;
+      width: 80px;
+    }
+    .tag {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-right: 4px;
+    }
+    .accomplishments {
+      margin-left: 20px;
+      margin-top: 6px;
+      color: #374151;
+      font-size: 0.95rem;
+    }
+    .accomplishments li {
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>류웅선</h1>
+      <blockquote>상상을 지속 가능한 메커니즘으로 구현하는 기획자</blockquote>
+      <ul class="contact-info">
+        <li>📧 이메일: <a href="mailto:ryuwoongsun03@gmail.com">ryuwoongsun03@gmail.com</a></li>
+      </ul>
+    </header>
+
+    <section>
+      <h2>학력</h2>
+      <div class="item">
+        <div class="item-title">유한대학교 | 컴퓨터공학과 게임콘텐츠전공</div>
+        <div class="sub-text">2022.03 ~ 현재</div>
+      </div>
+      <div class="item">
+        <div class="item-title">청라고등학교</div>
+        <div class="sub-text">2019.03 ~ 2022.02</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>경력</h2>
+      <div class="item">
+        <div class="sub-text">항목</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>프로젝트 경험</h2>
+      <div class="card">
+        <h3>언럭키 히어로즈 <span style="font-size: 0.9rem; font-weight: normal; color: #6b7280;">(2026.03 ~ 2026.06)</span></h3>
+        <ul class="detail-list">
+          <li><strong>구분</strong> 기타</li>
+          <li><strong>역할</strong> UI/UX 디자인 (팀 4명 중 1명)</li>
+          <li>
+            <strong>사용 기술</strong>
+            <span class="tag">Unity</span>
+            <span class="tag">Git Hub</span>
+          </li>
+          <li style="margin-top: 10px;">
+            <strong>주요 업무</strong>
+            <ul class="accomplishments">
+              <li>게임 에셋 및 UI 제작</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
