@@ -35,6 +35,35 @@
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
       border: 1px solid var(--border);
     }
+    /* 상단 네비게이션 바 */
+    .top-nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed var(--border);
+    }
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #ffffff;
+      background-color: var(--primary);
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .nav-btn:hover {
+      background-color: #1d4ed8;
+      transform: translateY(-1px);
+    }
+    .nav-btn:active {
+      transform: translateY(0);
+    }
     header {
       border-bottom: 2px solid var(--border);
       padding-bottom: 24px;
@@ -153,11 +182,18 @@
 </head>
 <body>
   <div class="container">
+    <!-- 상단 기획서 이동 네비게이션 -->
+    <nav class="top-nav">
+      <a href="hunt_core_event.html" target="_blank" class="nav-btn">
+        📄 이벤트 기획서 보기 (Hunt Core)
+      </a>
+    </nav>
+
     <header>
       <h1>류웅선</h1>
       <blockquote>상상을 지속 가능한 메커니즘으로 구현하는 기획자</blockquote>
       <ul class="contact-info">
-        <li>📧 이메일: <a href="mailto:ryuwoongsun03@gmail.com">ryuwoongsun03@gmail.com</a></li>
+        <li>📧 이메일: <a href="mailto:ryuwoongsun03@gmail.com">ryuwoongsun03@gmail.com</a>[cite: 1]</li>
       </ul>
     </header>
 
@@ -183,19 +219,19 @@
     <section>
       <h2>프로젝트 경험</h2>
       <div class="card">
-        <h3>언럭키 히어로즈 <span style="font-size: 0.9rem; font-weight: normal; color: #6b7280;">(2026.03 ~ 2026.06)</span></h3>
+        <h3>언럭키 히어로즈 <span style="font-size: 0.9rem; font-weight: normal; color: #6b7280;">(2026.03 ~ 2026.06)</span>[cite: 1]</h3>
         <ul class="detail-list">
-          <li><strong>구분</strong> 기타</li>
-          <li><strong>역할</strong> UI/UX 디자인 (팀 4명 중 1명)</li>
+          <li><strong>구분</strong> 기타[cite: 1]</li>
+          <li><strong>역할</strong> UI/UX 디자인 (팀 4명 중 1명)[cite: 1]</li>
           <li>
-            <strong>사용 기술</strong>
-            <span class="tag">Unity</span>
-            <span class="tag">Git Hub</span>
+            <strong>사용 기술</strong>[cite: 1]
+            <span class="tag">Unity</span>[cite: 1]
+            <span class="tag">Git Hub</span>[cite: 1]
           </li>
           <li style="margin-top: 10px;">
-            <strong>주요 업무</strong>
+            <strong>주요 업무</strong>[cite: 1]
             <ul class="accomplishments">
-              <li>게임 에셋 및 UI 제작</li>
+              <li>게임 에셋 및 UI 제작[cite: 1]</li>
             </ul>
           </li>
         </ul>
